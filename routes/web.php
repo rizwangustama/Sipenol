@@ -20,6 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'index');
 // Route::view('/register', 'layouts/register');
 
-Route::get('/regis', function () {
+Route::get('/register', function () {
     return view('layouts/register');
 });

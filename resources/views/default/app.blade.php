@@ -90,7 +90,7 @@
                                                         placeholder="Masukan Kata Sandi">
                                                 </div>
                                                 <button type="button" class="mw-100 btn mt-3 mb-3">Login</button>
-                                                <p>Don't have an account? <a href="page/register.html">Register here</a>
+                                                <p>Don't have an account? <a href="{{ url('/register') }}">Register here</a>
                                                 </p>
                                             </div>
                                         </div>
