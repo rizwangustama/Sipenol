@@ -109,6 +109,11 @@
     @yield('contents')
 
 
+
+    <footer class="py-4">
+        <p class="text-center mb-0 text-light">Copyright © 2021 | sipenol.com</p>
+    </footer>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
