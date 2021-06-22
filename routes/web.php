@@ -18,4 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/', 'index');
+// Route::view('/register', 'layouts/register');
 
+Route::get('/regis', function () {
+    return view('layouts/register');
+});

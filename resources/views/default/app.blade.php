@@ -16,7 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>SiPenol</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-xl">
             <div class="container-fluid navbar-light">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url('/')}}">
                     <svg width="138" height="33" viewBox="0 0 138 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="16.5" cy="16.5" r="16.5" fill="#FFF500" />
                         <path
@@ -109,11 +109,10 @@
     @yield('contents')
 
 
-
     <footer class="py-4">
         <p class="text-center mb-0 text-light">Copyright © 2021 | sipenol.com</p>
     </footer>
-    
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
