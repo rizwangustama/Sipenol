@@ -107,3 +107,14 @@ footer {
 footer p {
   font-size: 17px;
 }/*# sourceMappingURL=style.css.map */
+
+.greenBtn{
+  background-color: #00A000;
+  font-weight: 500px;
+  color: white;
+}
+
+.greenBtn:hover{
+  background-color: transparent !important;
+  color: #00A000;
+}
