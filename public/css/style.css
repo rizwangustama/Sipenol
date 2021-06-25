@@ -1,121 +1,129 @@
 * {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .container-fluid {
-  width: 80%;
+    width: 80%;
 }
 
 .container {
-  width: 80%;
+    width: 80%;
 }
 
 /* header nav {
     box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.25);
 } */
 header nav .collapse ul li {
-  margin: 0 5px;
+    margin: 0 5px;
 }
 header nav .collapse ul li a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
 }
 header nav .collapse ul li .btn {
-  background-color: #00A000;
-  font-weight: 500px;
-  color: white;
-  width: 106px;
-  border: 2px solid transparent;
+    background-color: #00A000;
+    font-weight: 500px;
+    color: white;
+    width: 106px;
+    border: 2px solid transparent;
 }
 header nav .collapse ul li .btn:hover {
-  background-color: transparent;
-  color: #00A000;
-  border: 2px solid #00A000;
+    background-color: transparent;
+    color: #00A000;
+    border: 2px solid #00A000;
 }
 header nav .collapse ul li .modal .modal-dialog .modal-content .modal-body .wrapp button {
-  min-width: 100%;
+    min-width: 100%;
 }
 
 main #jumbotron {
-  background-color: #00A000;
-  padding: 50px 0;
-  border-radius: 0px 0px 100px 0px;
+    background-color: #00A000;
+    padding: 50px 0;
+    border-radius: 0px 0px 100px 0px;
 }
 
 main #jumbotron .container .row .col .wrapp h1 {
-  font-size: 55px;
-  font-weight: bold;
-  color: #FFF500;
+    font-size: 55px;
+    font-weight: bold;
+    color: #FFF500;
 }
 main #jumbotron .container .row .col .wrapp h2 {
-  font-size: 46px;
-  font-weight: bold;
+    font-size: 46px;
+    font-weight: bold;
 }
 main #jumbotron .container .row .col .wrapp p {
-  font-style: italic;
-  font-weight: lighter;
+    font-style: italic;
+    font-weight: lighter;
 }
 main #jumbotron .container .row .col .wrapp button {
-  background-color: #FFF500;
-  width: 259px;
-  color: #00A000;
-  font-weight: bold;
-  border: 2px solid transparent;
+    background-color: #FFF500;
+    width: 259px;
+    color: #00A000;
+    font-weight: bold;
+    border: 2px solid transparent;
 }
 main #jumbotron .container .row .col .wrapp button:hover {
-  background-color: transparent;
-  color: #FFF500;
-  border: 2px solid #FFF500;
+    background-color: transparent;
+    color: #FFF500;
+    border: 2px solid #FFF500;
 }
 main #jumbotron .container .row .col .d-flex img {
-  width: 424px;
+    width: 424px;
 }
 main #about .container .row .col img {
-  width: 380px;
+    width: 380px;
 }
 main #about .container .row .col .d-flex h1 {
-  margin-bottom: 0;
-  color: #00A000;
+    margin-bottom: 0;
+    color: #00A000;
 }
 main #about .container .row .col p {
-  line-height: 28px;
-  color: #6F6F6F;
+    line-height: 28px;
+    color: #6F6F6F;
 }
 main #features {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 main #features .container h1 {
     color: #00A000;
 }
 main #features .container .row .col {
-  padding: 35px;
-  -webkit-box-shadow: 16px 0px 48px rgba(51, 51, 51, 0.2);
-          box-shadow: 16px 0px 48px rgba(51, 51, 51, 0.2);
+    padding: 35px;
+    -webkit-box-shadow: 16px 0px 48px rgba(51, 51, 51, 0.2);
+    box-shadow: 16px 0px 48px rgba(51, 51, 51, 0.2);
 }
 main #features .container .row .col .wrapp {
-  height: 226px;
+    height: 226px;
 }
 main #features .container .row .col h3 {
-  background-color: #8ED16F;
-  font-size: 25px;
-  color: #006100;
+    background-color: #8ED16F;
+    font-size: 25px;
+    color: #006100;
 }
 footer {
-  background-color: #00A000;
+    background-color: #00A000;
 }
 footer p {
-  font-size: 17px;
-}/*# sourceMappingURL=style.css.map */
+    font-size: 17px;
+}
 
 .greenBtn{
-  background-color: #00A000;
-  font-weight: 500px;
-  color: white;
+    background-color: #00A000;
+    font-weight: 500px;
+    color: white;
 }
 
 .greenBtn:hover{
-  background-color: transparent !important;
-  color: #00A000;
+    background-color: transparent !important;
+    color: #00A000;
+}
+
+@media only screen and (max-width: 500px) {
+ main #about .container .row .col img {
+    max-width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+ }
 }
