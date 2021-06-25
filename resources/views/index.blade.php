@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex align-items-center justify-content-end">
+                        <div class="last d-flex align-items-center justify-content-end">
                             <img src="./img/ilustrasi 1.svg" alt="">
                         </div>
                     </div>

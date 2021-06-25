@@ -22,7 +22,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-xl">
+        <nav class="navbar navbar-expand-lg  ">
             <div class="container-fluid navbar-light">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <svg width="138" height="33" viewBox="0 0 138 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,9 +32,8 @@
                             fill="#00A000" />
                     </svg>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,14 +51,13 @@
                             @if (Route::has('login'))
                                 <li class="nav-item">
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn login rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#login">
+
+                                    <button type="button" class="btn login rounded-pill shadow-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         Login
                                     </button>
 
                                     <!-- Modal -->
-                                    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                        aria-hidden="true">
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -158,13 +156,6 @@
         <p class="text-center mb-0 text-light">Copyright © 2021 | sipenol.com</p>
     </footer>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-    </script>
-
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -173,9 +164,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"
-        integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
